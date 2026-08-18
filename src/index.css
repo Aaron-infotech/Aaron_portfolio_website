@@ -147,7 +147,8 @@ button {
 }
 
 @media (max-width: 768px) {
-  .section-title::after {
+  .section-title::after,
+  .hero-wave-stroke {
     display: none !important;
   }
 }

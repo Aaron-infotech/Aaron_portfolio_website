@@ -157,6 +157,7 @@ const Hero = ({ onOpenContact }) => {
           />
           {/* Defined Stroke along top wave curve */}
           <path
+            className="hero-wave-stroke"
             d="M0,35 C320,95 680,20 1080,45 C1260,58 1380,75 1440,85"
             stroke="rgba(124, 58, 237, 0.35)"
             strokeWidth="2.5"

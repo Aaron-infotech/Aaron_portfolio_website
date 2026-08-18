@@ -146,6 +146,12 @@ button {
   margin: 0.5rem auto 0 auto;
 }
 
+@media (max-width: 768px) {
+  .section-title::after {
+    display: none !important;
+  }
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {

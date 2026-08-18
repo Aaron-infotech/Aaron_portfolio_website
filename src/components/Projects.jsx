@@ -41,7 +41,7 @@ const Projects = () => {
                     <div style={{ height: '46px' }} />
                   )}
 
-                  {/* Pulsing Live Green Dot Only */}
+                  {/* Pulsing Live Red Dot Only */}
                   <span className="live-dot" title="Live Project"></span>
                 </div>
 
@@ -50,14 +50,15 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                {/* Bottom Row: Tech Stack on Left, Visit Project on Right */}
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '1.25rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                  <div className="project-tech" style={{ marginTop: 0 }}>
-                    <Layers size={16} style={{ color: '#7c3aed', flexShrink: 0 }} />
-                    <span>Tech Stack: <strong style={{ color: '#0f172a' }}>{project.techStack}</strong></span>
-                  </div>
+                {/* Tech Stack */}
+                <div className="project-tech" style={{ marginTop: '0.5rem', marginBottom: '1rem' }}>
+                  <Layers size={16} style={{ color: '#7c3aed', flexShrink: 0 }} />
+                  <span>Tech Stack: <strong style={{ color: '#0f172a' }}>{project.techStack}</strong></span>
+                </div>
 
-                  <span className="project-visit-text">
+                {/* Last Row: Visit Project Text Centered */}
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.25rem', paddingTop: '0.85rem', borderTop: '1px dashed #e2e8f0' }}>
+                  <span className="project-visit-text" style={{ justifyContent: 'center' }}>
                     <span>Visit Project</span>
                     <ExternalLink size={14} className="project-link-icon" />
                   </span>

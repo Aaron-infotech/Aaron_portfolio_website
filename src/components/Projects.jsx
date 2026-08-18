@@ -24,31 +24,43 @@ const Projects = () => {
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <div className="project-card-header" style={{ marginBottom: 0 }}>
-                {/* Top Row: Direct Large Logo on Left, Pulsing Live Dot on Right */}
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem', height: '48px' }}>
-                  {project.logo ? (
-                    <img
-                      src={project.logo}
-                      alt={`${project.title} logo`}
-                      style={{
-                        height: '46px',
-                        maxWidth: '170px',
-                        objectFit: 'contain',
-                        objectPosition: 'left center'
-                      }}
-                    />
-                  ) : (
-                    <div style={{ height: '46px' }} />
-                  )}
+                {/* Top Row: Circular Logo + Title on Left, Pulsing Live Dot on Right */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                    {project.logo && (
+                      <div style={{
+                        width: '38px',
+                        height: '38px',
+                        borderRadius: '50%',
+                        backgroundColor: '#ffffff',
+                        border: '1px solid #e2e8f0',
+                        boxShadow: '0 2px 6px rgba(0, 0, 0, 0.05)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        overflow: 'hidden',
+                        padding: '4px',
+                        flexShrink: 0
+                      }}>
+                        <img
+                          src={project.logo}
+                          alt={`${project.title} logo`}
+                          style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'contain'
+                          }}
+                        />
+                      </div>
+                    )}
+                    <h3 className="project-title" style={{ fontSize: '1.35rem', fontWeight: 800, margin: 0, lineHeight: 1.25 }}>
+                      {project.title}
+                    </h3>
+                  </div>
 
-                  {/* Pulsing Live Red Dot Only */}
+                  {/* Pulsing Live Red Dot */}
                   <span className="live-dot" title="Live Project"></span>
                 </div>
-
-                {/* Title */}
-                <h3 className="project-title" style={{ fontSize: '1.45rem', fontWeight: 800, marginBottom: '0.75rem', lineHeight: 1.25 }}>
-                  {project.title}
-                </h3>
 
                 {/* Tech Stack */}
                 <div className="project-tech" style={{ marginTop: '0.5rem', marginBottom: '1rem' }}>

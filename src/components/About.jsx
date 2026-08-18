@@ -75,6 +75,13 @@ const About = () => {
                 </div>
                 <span>Clean Architecture</span>
               </div>
+
+              <div className="pillar-badge">
+                <div className="pillar-icon-box">
+                  <Sparkles size={15} />
+                </div>
+                <span>AI Project Development</span>
+              </div>
             </div>
           </div>
 

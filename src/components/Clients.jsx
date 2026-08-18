@@ -44,7 +44,7 @@ const AnimatedStatValue = ({ value }) => {
     const step = (timestamp) => {
       if (!startTimestamp) startTimestamp = timestamp;
       const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-      
+
       // Smooth ease-out cubic animation formula
       const easeOutProgress = 1 - Math.pow(1 - progress, 3);
       setCount(Math.floor(easeOutProgress * target));

@@ -80,13 +80,15 @@ const Hero = ({ onOpenContact }) => {
             </p>
 
             <div className="hero-actions">
-              <button
-                onClick={onOpenContact}
+              <a
+                href={`https://wa.me/${personalInfo.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hi Aaron, I'm interested in hiring you for a project!")}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
               >
                 <span>Hire Me</span>
                 <ArrowUpRight size={18} />
-              </button>
+              </a>
 
               <a href="#projects" className="btn btn-secondary">
                 <span>View Projects</span>

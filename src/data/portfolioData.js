@@ -5,13 +5,13 @@ export const personalInfo = {
   degree: "B.Tech (I.T)",
   roles: [
     "Software Skill Trainer",
-    "Web Developer",
-    "Front-End Developer",
+    "Web and App Developer",
+    "Software Developer",
     "Freelancer"
   ],
   smallIntro: "Hi, I'm",
-  heroDescription: "I create modern websites, web applications, management software and digital solutions that help businesses grow.",
-  aboutText: "I’m a Freelance Web Developer creating modern and responsive websites, Web applications, Management Software, and digital solutions that help businesses grow. 🚀I help businesses, startups, and brands establish a strong digital presence with high-performance websites that drive growth, build credibility, and generate meaningful results.",
+  heroDescription: "I build high-performance web and apps, custom management software, and scalable digital solutions designed to streamline operations and drive business growth",
+  aboutText: "I’m a Freelance Web and AppDeveloper creating modern and responsive websites, Web applications, Management Software, and digital solutions that help businesses grow. 🚀I help businesses, startups, and brands establish a strong digital presence with high-performance websites that drive growth, build credibility, and generate meaningful results.",
   phone: "+91 73391 28894",
   email: "aaroninfotech2001@gmail.com",
   address: "Chennai, Tamil Nadu, India",
@@ -29,13 +29,13 @@ export const socialLinks = {
 };
 
 export const aboutHighlights = [
-  { name: "Web Development", icon: "Code2" },
+  { name: "Web and App Development", icon: "Code2" },
   { name: "UI/UX", icon: "Palette" },
   { name: "React JS", icon: "Atom" },
   { name: "Business Websites", icon: "Building2" },
   { name: "Management Software", icon: "LayoutDashboard" },
   { name: "Digital Solutions", icon: "Cpu" },
-  { name: "Technical Training", icon: "GraduationCap" },
+  { name: "Software Skill Trainer", icon: "GraduationCap" },
   { name: "AI-assisted development", icon: "Sparkles" }
 ];
 
@@ -45,29 +45,32 @@ export const projectsData = [
     title: "Hydrix Industrial Systems",
     techStack: "React JS",
     website: "https://hydrix.co.in",
-    tag: "Industrial"
+    tag: "Industrial",
+    logo: "/icons/hydrix_logo-B_dysilm.png"
   },
   {
     id: 2,
     title: "Anthem Diagnostics",
     techStack: "React JS",
     website: "https://anthemdx.in",
-    tag: "Healthcare"
+    tag: "Healthcare",
+    logo: "/icons/AnetZ.webp"
   },
   {
     id: 3,
     title: "KGN Furniture",
     techStack: "React JS",
     website: "https://kgnfurniture.com",
-    tag: "E-Commerce"
+    tag: "E-Commerce",
+    logo: "/icons/KGN_Logo.png"
   }
 ];
 
 export const servicesData = [
   {
     id: 1,
-    title: "Websites",
-    text: "Modern, responsive and professional business websites.",
+    title: "Website & App Development",
+    text: "Modern, responsive and professional business websites and Apps.",
     iconName: "Globe"
   },
   {
@@ -92,40 +95,40 @@ export const servicesData = [
 
 export const skillsData = [
   {
-    name: "HTML",
-    category: "Frontend",
-    iconName: "Code",
-    level: "Expert"
+    id: 1,
+    title: "Core Frontend & Markup",
+    iconName: "Code2",
+    techList: ["HTML5", "CSS3", "JavaScript (ES6+)",]
   },
   {
-    name: "CSS",
-    category: "Styling",
-    iconName: "FileCode",
-    level: "Expert"
-  },
-  {
-    name: "JavaScript",
-    category: "Programming",
-    iconName: "FileJson",
-    level: "Advanced"
-  },
-  {
-    name: "React JS",
-    category: "Framework",
+    id: 2,
+    title: "Frontend Frameworks & UI",
     iconName: "Atom",
-    level: "Expert"
+    techList: ["React.js", "Next.js", "Tailwind CSS",]
   },
   {
-    name: "Backend Development",
-    category: "Server",
+    id: 3,
+    title: "Backend & APIs",
     iconName: "Server",
-    level: "Advanced"
+    techList: ["Node.js", "Express.js", "REST APIs"]
   },
   {
-    name: "AI Code Generation",
-    category: "Next-Gen Tools",
-    iconName: "Bot",
-    level: "Specialist"
+    id: 4,
+    title: "Database & Storage",
+    iconName: "Database",
+    techList: ["PostgreSQL", "MySQL"]
+  },
+  {
+    id: 5,
+    title: " Version Control",
+    iconName: "GitBranch",
+    techList: ["Git", "GitHub"]
+  },
+  {
+    id: 6,
+    title: "AI Development Productivity",
+    iconName: "Sparkles",
+    techList: ["Prompt Engineering", "MCP", "AI Project Development"]
   }
 ];
 

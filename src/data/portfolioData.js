@@ -63,6 +63,14 @@ export const projectsData = [
     website: "https://kgnfurniture.com",
     tag: "E-Commerce",
     logo: "/icons/KGN_Logo.png"
+  },
+  {
+    id: 4,
+    title: "Nurish Organics",
+    techStack: "React JS",
+    website: "https://nurish-organicsfarm.vercel.app",
+    tag: "E-Commerce",
+    logo: "/icons/nurish_logo.webp"
   }
 ];
 
@@ -164,6 +172,14 @@ export const clientsData = [
     logo: "/icons/kaifa_logo.png",
     website: "https://kaifa.org.in",
     badge: "Corporate Client"
+  },
+  {
+    id: 5,
+    name: "Nurish Organics",
+    fullTitle: "Nurish Organics",
+    logo: "/icons/nurish_logo.webp",
+    website: "https://nurish-organicsfarm.vercel.app",
+    badge: "Organic E-Commerce"
   }
 ];
 

@@ -46,6 +46,7 @@ export const projectsData = [
     techStack: "React JS",
     website: "https://hydrix.co.in",
     tag: "Industrial",
+    description: "Industrial equipment platform showcasing products, engineering capabilities, and customer inquiries.",
     logo: "/icons/hydrix_logo-B_dysilm.png"
   },
   {
@@ -54,6 +55,7 @@ export const projectsData = [
     techStack: "React JS",
     website: "https://anthemdx.in",
     tag: "Healthcare",
+    description: "Diagnostic healthcare portal featuring interactive test selectors, lead tracking, and responsive design.",
     logo: "/icons/AnetZ.webp"
   },
   {
@@ -62,6 +64,7 @@ export const projectsData = [
     techStack: "React JS",
     website: "https://kgnfurniture.com",
     tag: "E-Commerce",
+    description: "E-Commerce retail website showcasing modern furniture catalogs with fast search and clean UX.",
     logo: "/icons/KGN_Logo.png"
   },
   {
@@ -69,7 +72,8 @@ export const projectsData = [
     title: "Nurish Organics",
     techStack: "React JS",
     website: "https://nurish-organicsfarm.vercel.app",
-    tag: "E-Commerce",
+    tag: "Organic Store",
+    description: "Direct-from-farm organic store featuring cold-pressed oils, heritage rice, and mobile quick purchase.",
     logo: "/icons/nurish_logo.webp"
   }
 ];

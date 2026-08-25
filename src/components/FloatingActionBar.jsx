@@ -1,47 +1,23 @@
 import React from 'react';
-import { Phone, Mail } from 'lucide-react';
-import { LinkedInIcon, InstagramIcon, WhatsAppIcon } from './SocialIcons';
+import { Phone } from 'lucide-react';
+import { GithubIcon, LinkedInIcon, InstagramIcon, WhatsAppIcon } from './SocialIcons';
 import { personalInfo, socialLinks } from '../data/portfolioData';
 
-const FloatingActionBar = ({ onOpenContact }) => {
+const FloatingActionBar = () => {
   return (
     <div className="floating-dock-bar">
       <div className="floating-dock-inner">
-        {/* Phone Direct Call */}
+        {/* GitHub Account Link */}
         <a
-          href={`tel:${personalInfo.phone.replace(/\s+/g, '')}`}
-          className="dock-item item-call"
-          title="Call Aaron"
-          aria-label="Call Aaron"
-        >
-          <Phone size={19} />
-          <span className="dock-tooltip">Call</span>
-        </a>
-
-        {/* WhatsApp Chat */}
-        <a
-          href={socialLinks.whatsapp}
+          href={socialLinks.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="dock-item item-whatsapp"
-          title="WhatsApp Chat"
-          aria-label="WhatsApp"
+          className="dock-item item-github"
+          title="GitHub Account"
+          aria-label="GitHub"
         >
-          <WhatsAppIcon size={19} />
-          <span className="dock-tooltip">WhatsApp</span>
-        </a>
-
-        {/* Instagram Profile */}
-        <a
-          href={socialLinks.instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="dock-item item-instagram"
-          title="Instagram"
-          aria-label="Instagram"
-        >
-          <InstagramIcon size={19} />
-          <span className="dock-tooltip">Instagram</span>
+          <GithubIcon size={19} />
+          <span className="dock-tooltip">GitHub</span>
         </a>
 
         {/* LinkedIn Profile */}
@@ -57,16 +33,42 @@ const FloatingActionBar = ({ onOpenContact }) => {
           <span className="dock-tooltip">LinkedIn</span>
         </a>
 
-        {/* Email / Direct Hire Modal */}
-        <button
-          onClick={onOpenContact}
-          className="dock-item item-contact"
-          title="Email / Contact"
-          aria-label="Contact"
+        {/* WhatsApp Chat */}
+        <a
+          href={socialLinks.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="dock-item item-whatsapp"
+          title="WhatsApp Chat"
+          aria-label="WhatsApp"
         >
-          <Mail size={19} />
-          <span className="dock-tooltip">Contact</span>
-        </button>
+          <WhatsAppIcon size={19} />
+          <span className="dock-tooltip">WhatsApp</span>
+        </a>
+
+        {/* Phone Direct Call */}
+        <a
+          href={`tel:${personalInfo.phone.replace(/\s+/g, '')}`}
+          className="dock-item item-call"
+          title="Call Aaron"
+          aria-label="Call Aaron"
+        >
+          <Phone size={19} />
+          <span className="dock-tooltip">Call</span>
+        </a>
+
+        {/* Instagram Profile */}
+        <a
+          href={socialLinks.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="dock-item item-instagram"
+          title="Instagram"
+          aria-label="Instagram"
+        >
+          <InstagramIcon size={19} />
+          <span className="dock-tooltip">Instagram</span>
+        </a>
       </div>
     </div>
   );

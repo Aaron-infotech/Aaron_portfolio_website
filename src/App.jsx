@@ -70,7 +70,7 @@ function App() {
       </main>
       <Footer />
       <ContactModal isOpen={isContactModalOpen} onClose={handleCloseContact} />
-      <FloatingActionBar onOpenContact={handleOpenContact} />
+      <FloatingActionBar />
     </div>
   );
 }

@@ -94,8 +94,6 @@ const Hero = ({ onOpenContact }) => {
                 <span>View Projects</span>
               </a>
             </div>
-
-
           </div>
 
           {/* Right Side Developer Profile Photo with Multi-Stroke Diagonal Paint Texture Backdrop */}

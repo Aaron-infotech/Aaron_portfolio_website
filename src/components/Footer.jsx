@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkedInIcon, InstagramIcon, WhatsAppIcon } from './SocialIcons';
+import { GithubIcon, LinkedInIcon, InstagramIcon, WhatsAppIcon } from './SocialIcons';
 import { personalInfo, socialLinks } from '../data/portfolioData';
 
 const Footer = () => {
@@ -42,6 +42,16 @@ const Footer = () => {
               Connect
             </h4>
             <div className="footer-socials">
+              <a
+                href={socialLinks.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-social-btn github"
+                aria-label="GitHub"
+              >
+                <GithubIcon size={18} />
+              </a>
+
               <a
                 href={socialLinks.linkedIn}
                 target="_blank"

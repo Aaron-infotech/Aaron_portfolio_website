@@ -23,6 +23,7 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
+  github: "https://github.com/Aaron-infotech",
   linkedIn: "https://linkedin.com/in/aaron-j-93517a22b/",
   instagram: "https://instagram.com/aaron_r1_",
   whatsapp: "https://wa.me/917339128894?text=Hi%20Aaron,%20I'd%20like%20to%20discuss%20a%20project",

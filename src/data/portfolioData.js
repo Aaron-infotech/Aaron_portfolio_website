@@ -54,7 +54,7 @@ export const projectsData = [
     id: 2,
     title: "Anthem Diagnostics",
     techStack: "React JS",
-    website: "https://anthemdx.in",
+    website: "https://anthem-diagnostics-45i9.vercel.app",
     tag: "Healthcare",
     description: "Diagnostic healthcare portal featuring interactive test selectors, lead tracking, and responsive design.",
     logo: "/icons/AnetZ.webp"
@@ -159,7 +159,7 @@ export const clientsData = [
     name: "Anthem Diagnostics",
     fullTitle: "Anthem Diagnostics",
     logo: "/icons/AnetZ.webp",
-    website: "https://anthemdx.in",
+    website: "https://anthem-diagnostics-45i9.vercel.app",
     badge: "Healthcare Solutions"
   },
   {

@@ -76,6 +76,24 @@ export const projectsData = [
     tag: "Organic Store",
     description: "Direct-from-farm organic store featuring cold-pressed oils, heritage rice, and mobile quick purchase.",
     logo: "/icons/nurish_logo.webp"
+  },
+  {
+    id: 5,
+    title: "Eesa Organics",
+    techStack: "React JS",
+    website: "https://eesa-organics.vercel.app",
+    tag: "Organic Store",
+    description: "Herbal wellness storefront for natural body, hair, and self-care products inspired by traditional remedies.",
+    logo: "/icons/8661e69a-3986-4e4c-a61d-59943d395d75.png"
+  },
+  {
+    id: 6,
+    title: "Global Mobile & Laptop Service",
+    techStack: "React JS",
+    website: "https://global-mobile-and-laptop-services.vercel.app",
+    tag: "Repair Services",
+    description: "Service website for mobile, laptop, and desktop repairs, with product highlights and customer enquiries.",
+    logo: "/icons/global mobile and laptop servics.png"
   }
 ];
 
@@ -185,6 +203,22 @@ export const clientsData = [
     logo: "/icons/nurish_logo.webp",
     website: "https://nurish-organicsfarm.vercel.app",
     badge: "Organic E-Commerce"
+  },
+  {
+    id: 6,
+    name: "Eesa Organics",
+    fullTitle: "Eesa Organics",
+    logo: "/icons/8661e69a-3986-4e4c-a61d-59943d395d75.png",
+    website: "https://eesa-organics.vercel.app",
+    badge: "Organic Wellness"
+  },
+  {
+    id: 7,
+    name: "Global Mobile",
+    fullTitle: "Global Mobile & Laptop Service",
+    logo: "/icons/global mobile and laptop servics.png",
+    website: "https://global-mobile-and-laptop-services.vercel.app",
+    badge: "Device Repair Services"
   }
 ];
 
